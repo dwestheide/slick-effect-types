@@ -1,6 +1,6 @@
 package com.danielwestheide.slickeffecttypes
 
-import java.time.{LocalDateTime, Clock, OffsetDateTime}
+import java.time.{Clock, LocalDateTime}
 import java.util.UUID
 
 package object statuses {

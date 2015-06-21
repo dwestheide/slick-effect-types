@@ -6,7 +6,7 @@ import CustomColumnTypes._
 
 class StatusTable(tag: Tag) extends Table[Status](tag, "statuses") {
 
-  def id = column[StatusId]("id")
+  def id = column[StatusId]("id", O.PrimaryKey)
   def createdAt = column[LocalDateTime]("created_at")
   def author = column[String]("author")
   def text = column[String]("text")
