@@ -1,6 +1,6 @@
 This is a tiny, over-simplified example demonstrating how to prevent at compile time that you are writing to your slave database, leveraging Slick's DB action effect types.
 
-Please read my corresponding blog post, [Put your writes where your master is: Compile-time restriction of Slick effect types](http://danielwestheide.com/blog/2015/06/29/put-your-writes-where-your-master-is-compile-time-restriction-of-slick-effect-types.html) for more information.
+Please read my corresponding blog post, [Put your writes where your master is: Compile-time restriction of Slick effect types](http://danielwestheide.com/blog/2015/06/28/put-your-writes-where-your-master-is-compile-time-restriction-of-slick-effect-types.html) for more information.
 
 ## Usage
 
